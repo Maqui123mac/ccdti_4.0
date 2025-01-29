@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCDTI 4.0</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style_diseño.css">
+    <link rel="stylesheet" href="libreria_galeria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+     <!--Menu-->
+    <header class="header">
+        <div class="logo"><img src="img/ccdti-cluster(2)-ai.png" alt="menu" height="78px" width="230px"></div>
+        <input type="checkbox" id="toggle">
+        <label for="toggle"> <img src="img/menu.svg" alt="menu" height="35px" width="35px"></label>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="#">EDUCACIÓN <img src="img/flecha_abajo.svg" alt="flecha_abajo" height="18px" width="20px"></a>
+                    <ul>
+                        <li><a href="Steam.html">STEAM DAY</a></li>
+                        <li><a href="diseño.html">DISEÑO</a></li>
+                        <li><a href="robotica.html">ROBÓTICA</a></li>
+                        <li><a href="iot.html">IOT</a></li>
+                        <li><a href="taller.html">TALLER A MEDIDA</a></li>
+                    </ul>
+                </li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br><br><br>
+
+    <!--Botones-->
+    <center>
+    <div class="tab">
+        <button class="tablinks active" id="btn-1" onclick="openTab(event, 'Diseño')">Robótica</button>
+        <button class="tablinks" id="btn-2" onclick="openTab(event, 'Cursos')">Cursos</button>
+        <button class="tablinks" id="btn-3" onclick="openTab(event, 'Certificado')">Certificado</button>
+        <button class="tablinks" id="btn-4" onclick="openTab(event, 'Laboratorios')">Laboratorios</button>
+        <button class="tablinks" id="btn-5" onclick="openTab(event, 'Galeria')">Galeria</button>
+      </div>
+    </center>
+
+      <div id="Diseño" class="tabcontent">
+
+    <!--Parrafo diseño-->
+    <p class="text-titulo" align="center">
+        Robótica
+    </p>
+    <p class="text-cuerpo">
+        La robótica es una disciplina que combina diferentes áreas del conocimiento, como las matemáticas, la ciencia, la ingeniería y la tecnología. En CCDTI 4.0, queremos ofrecer un modelo educativo basado en la robótica, que fortalezca la colaboración entre las instituciones académicas y que forme a profesores y alumnos con las competencias necesarias para el siglo XXI.
+        <br><br> Nuestra propuesta se centra en fomentar el interés de los estudiantes por las ciencias, la tecnología, la ingeniería y las matemáticas, y en capacitar a los docentes para que puedan guiarlos y motivarlos. A través de la robótica educativa, los alumnos pueden aprender de forma práctica, creativa y divertida, mientras desarrollan habilidades como el pensamiento crítico, la resolución de problemas, el trabajo en equipo y la comunicación. Nuestra meta es proveer recursos de aprendizaje innovadores y de calidad mediante la robótica educativa.
+    </p>
+
+    <!--Cartas-->
+    <div class="container">
+        <p class="text-subtitulo" align="center">
+            ¿Cuál es nuestra diferencia?
+        </p>
+        <main class="cards">
+            <section class="card card2 contact" align="center">
+                <div class="icon">
+                    <img src="img/insignia.png" alt="Certificado">
+                </div>
+                <h3>Certificado</h3>
+                <span>Otra certificación es un tipo de curso que permite validar el dominio y conocimiento de otra materia, competencia o tecnología. 
+                <br><br>Otra certificación está respaldada por otro tercero reconocido en el campo, que otorga otro documento o una credencial que acredita el nivel de competencia del participante. 
+                </span>
+            </section>
+            <section class="card card2 shop" align="center">
+                <div class="icon">
+                    <img src="img/presentacion.png" alt="Curso">
+                </div>
+                <h3>Curso</h3>
+                <span>Otro curso es una forma de aprendizaje que tiene como objetivo adquirir o mejorar conocimientos y habilidades sobre otro tema específico.
+                <br><br>Otro curso puede estar avalado por otra institución educativa o una organización profesional, pero no otorga un título académico ni una acreditación oficial.</span>
+            </section>
+        </main>
+
+        </div>
+      </div>
+
+    <!--Parrafo cursos-->
+    <div class="container">
+      <div id="Cursos" class="tabcontent">
+    <p class="text-titulo" align="center">
+        Cursos
+    </p>
+    <p class="text-subtitulo" align="center">
+        Robótica colaborativa
+    </p>
+    <main class="cards">
+            <section class="card contact" align="center">
+                <div class="icon">
+                    <img src="img/robot-industrial.png" alt="Certificado">
+                </div>
+                <h3>Brazos Robóticos</h3>
+                <span>Aprende a desarrollar el cálculo de
+                    trayectorias para la programación de brazos
+                    robóticos colaborativos por medio de
+                    lenguajes visuales y de texto, además simulará
+                    procesos de manufactura por medio de las
+                    herramientas de grabado láser, rotulación,
+                    impresión 3D, bandas transportadoras y rieles
+                    de desplazamiento.
+                </span>
+                <a href="pdf/Curso Robótica Colaborativa (1).pdf"><button>Empecemos</button></a>
+            </section>
+            <section class="card shop" align="center">
+                <div class="icon">
+                    <img src="img/robot-industrial.png" alt="Curso">
+                </div>
+                <h3>DOBOT MG400</h3>
+                <span>Robot de escritorio liviano diseñado para
+                    ser flexible de implementar, fácil de usar y
+                    seguro para colaborar. Con una carga útil
+                    de 750 g, un alcance máximo de 440 mm,
+                    guía manual y detección de colisiones, es
+                    perfecto para aplicaciones industriales de
+                    escritorio que requieren una implementación
+                    y un cambio</span>
+                <a href="pdf/Curso Robótica Colaborativa (1).pdf"><button>Empecemos</button></a>
+            </section>
+            <section class="card about">
+                <div class="icon">
+                    <img src="img/robot-industrial.png" alt="About us.">
+                </div>
+                <h3>DOBOT M1</h3>
+                <span>Brazo robótico colaborativo para la
+                    industria ligera. Con alta precisión, amplio
+                    rango de trabajo, funciones completas
+                    y desarrollo secundario, puede realizar
+                    múltiples funciones del trabajo de la
+                    línea de ensamblaje, como soldadura,
+                    reconocimiento visual y plug-in de PCB, lo
+                    que ayuda a construir el sistema industrial
+                    inteligente.</span>
+                <a href="pdf/Curso Robótica Colaborativa (1).pdf"><button>Empecemos</button></a>
+            </section>
+            <section class="card contact">
+                <div class="icon">
+                    <img src="img/robot-industrial.png" alt="About us.">
+                </div>
+                <h3>DOBOT Magician Lite</h3>
+                <span>Brazo robótico inteligente, ligero y
+                    multifuncional, es uno de los numerosos
+                    métodos de interacción de software y hardware
+                    e interfaces de expansión para maximizar la
+                    libertad de creación de los estudiantes.
+                    Los estudiantes trabajan juntos como
+                    un equipo para abordar tareas desafiantes
+                    mediante el diseño, la creación y la
+                    programación de sus propios robots.</span>
+                <a href="pdf/Curso Robótica Colaborativa (1).pdf"><button>Empecemos</button></a>
+            </section>
+            <section class="card shop" align="center">
+                <div class="icon">
+                    <img src="img/robot-industrial.png" alt="Curso">
+                </div>
+                <h3>DOBOT Magician</h3>
+                <span>Brazo robótico de entrenamiento
+                    inteligente y liviano: una plataforma
+                    educativa STEM todo en uno. Es compatible
+                    con el desarrollo secundario mediante 13
+                    interfaces extensibles y más de 20 lenguajes
+                    de programación, lo que realmente hace
+                    que su creatividad e imaginación aumenten
+                    sin ninguna limitación.</span>
+                <a href="pdf/Curso Robótica Colaborativa (1).pdf"><button>Empecemos</button></a>
+            </section>
+        </main>
+        <p class="text-subtitulo" align="center">
+            Robótica educativa
+        </p>
+        <main class="cards">
+                <section class="card contact" align="center">
+                    <div class="icon">
+                        <img src="img/robot.png" alt="Certificado">
+                    </div>
+                    <h3>Programación de robots virtuales VEX
+                        CODE VR en Python.</h3>
+                    <span>Aprende a utilizar las herramientas de
+                        programación en línea enfocada en robótica
+                        virtual, por medio de código en bloques
+                        Scratch 3.0 usados en línea VEXcode para
+                        los robots VEX123, GO, IQ y V5.
+                    </span>
+                    <a href="pdf/Curso Robótica Educativa (1).pdf"><button>Empecemos</button></a>
+                </section>
+                <section class="card shop" align="center">
+                    <div class="icon">
+                        <img src="img/robot.png" alt="Curso">
+                    </div>
+                    <h3>Robótica Educativa VEX IQ.</h3>
+                    <span>Aprende a desarrollar un prototipo de robot
+                        móvil que cuente con la capacidad de tomar objetos y desplazarse en dirección controlada por medio de un sistema inalámbrico. Además de aprender conceptos básicos en mecánica, programación en bloques y electrónica.</span>
+                    <a href="pdf/Curso Robótica Educativa (1).pdf"><button>Empecemos</button></a>
+                </section>
+                <section class="card about">
+                    <div class="icon">
+                        <img src="img/robot.png" alt="About us.">
+                    </div>
+                    <h3>Robótica Educativa VEX V5</h3>
+                    <span>Sigue el desarrollo durante la educación
+                        media superior y superior un prototipo de robot
+                        móvil que cuente con la capacidad de tomar
+                        objetos y desplazarse en cualquier dirección
+                        controlada por medio de un sistema inalámbrico.
+                        Además de aprender conceptos básicos en
+                        mecánica, programación en texto y electrónica.</span>
+                    <a href="pdf/Curso Robótica Educativa (1).pdf"><button>Empecemos</button></a>
+                </section>
+                <section class="card contact">
+                    <div class="icon">
+                        <img src="img/robot.png" alt="About us.">
+                    </div>
+                    <h3>VEX 123</h3>
+                    <span>Robot programable e interactivo, que
+                        se puede programar sin una computadora,
+                        por lo que los estudiantes jóvenes pueden
+                        aprender a programar sin la necesidad de
+                        una pantalla. Las tarjetas VEX Coder y
+                        Coder brindan a los estudiantes una forma
+                        tangible de construir proyectos, compartir
+                        ideas y aprender conceptos de codificación
+                        de maneras divertidas y atractivas</span>
+                    <a href="pdf/Curso Robótica Educativa (1).pdf"><button>Empecemos</button></a>
+                </section>
+                <section class="card shop" align="center">
+                    <div class="icon">
+                        <img src="img/robot.png" alt="Curso">
+                    </div>
+                    <h3>VEX GO</h3>
+                    <span>Es un sistema de construcción STEM
+                        asequible que aprovecha la curiosidad
+                        natural de los niños. Utiliza el sistema
+                        de construcción de plástico VEX, con
+                        adaptaciones para estudiantes de primaria.
+                        Fomenta el aprendizaje crítico en una edad
+                        en la que las mentes jóvenes aún están
+                        abiertas a su máximo potencial.</span>
+                    <a href="pdf/Curso Robótica Educativa (1).pdf"><button>Empecemos</button></a>
+                </section>
+                <section class="card about">
+                    <div class="icon">
+                        <img src="img/robot.png" alt="About us.">
+                    </div>
+                    <h3>VEX IQ</h3>
+                    <span>Permite un aula atractiva y una robótica
+                        competitiva que inspira a los estudiantes
+                        con una experiencia STEM completa. El kit
+                        VEX IQ viene con todo lo que necesita para
+                        implementar con éxito la robótica educativa.
+                        Este kit es perfecto para las aulas y un gran
+                        comienzo para los equipos de competición.
+                        Un kit admite de 2 a 4 estudiantes.</span>
+                    <a href="pdf/Curso Robótica Educativa (1).pdf"><button>Empecemos</button></a>
+                </section>
+            </main>
+        </div>
+      </div>
+
+    <!--Parrafo certificado-->  
+    <div class="container"></div>  
+    <div id="Certificado" class="tabcontent">
+    <p class="text-titulo" align="center">
+    Certificados
+    </p>
+    <center>
+        <img id="video_robot" src="img/video_mascota.gif"></img>
+    </div></center>
+      </div>
+    
+    <!--Parrafo Laboratorios-->
+      <div id="Laboratorios" class="tabcontent">
+    <p class="text-titulo" align="center">
+    Laboratorios
+    </p>
+    <center>
+        <img id="video_robot" src="img/video_mascota.gif"></img>
+        </div></center>
+      </div>
+
+    <!--Parrafo Galeria-->  
+    <div id="Galeria" class="tabcontent">
+    <p class="text-titulo" align="center">
+    Galeria
+    </p>
+    <div class="container">
+        <div class="gallery">
+            <a href="img/img_robotica/robotica1.jpg" data-lightbox="models" data-title="Imagen1"><img src="img/img_robotica/robotica1.jpg" alt=""></a>
+
+            <a href="img/img_robotica/robotica2.jpg" data-lightbox="models" data-title="Imagen2"><img src="img/img_robotica/robotica2.jpg" alt=""></a>
+
+            <a href="img/img_robotica/robotica3.jpg" data-lightbox="models" data-title="Imagen3"><img src="img/img_robotica/robotica3.jpg" alt=""></a>
+
+            <a href="img/img_robotica/robotica4.jpg" data-lightbox="models" data-title="Imagen4"><img src="img/img_robotica/robotica4.jpg" alt=""></a>
+
+            <a href="img/img_robotica/robotica5.jpg" data-lightbox="models" data-title="Imagen5"><img src="img/img_robotica/robotica5.jpg" alt=""></a>
+
+            <a href="img/img_robotica/robotica6.jpg" data-lightbox="models" data-title="Imagen6"><img src="img/img_robotica/robotica6.jpg" alt=""></a>
+
+            <a href="img/img_robotica/robotica7.jpg" data-lightbox="models" data-title="Imagen7"><img src="img/img_robotica/robotica7.jpg" alt=""></a>
+
+            <a href="img/img_robotica/robotica8.jpg" data-lightbox="models" data-title="Imagen8"><img src="img/img_robotica/robotica8.jpg" alt=""></a>
+        </div>
+    </div>
+      </div>
+    <br><br>
+    
+    <!--Footer-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/ccdti-cluster(2)-ai.png" alt="Logo CCDTI">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>VISÍTANOS</h2>
+                <p> Las Cañadas 501, Tres Marías, Morelia, Michoacán, México 58254, Av Las Cañadas, 58253 Morelia, Mich.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/profile.php?id=100093025208604&sk=about" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/centro_ccdti4.0/" class="fa fa-instagram"></a>
+                    <a href="https://api.whatsapp.com/send?phone=4431283029" class="fa-brands fa-whatsapp"></a>
+                    <a href="https://www.linkedin.com/company/ccdti-4-0/" class="fa-brands fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>CCDTI 4.0</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+
+    <!--Scrip-->
+    <script src="script.js"></script>
+    <script src="libreria_galeria.js"></script>
+</body>
+</html>
